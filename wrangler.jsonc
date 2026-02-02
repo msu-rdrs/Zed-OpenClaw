@@ -41,6 +41,15 @@
       "max_instances": 1,
     },
   ],
+  "durable_objects": {
+    "bindings": [
+      {
+        "class_name": "Sandbox",
+        "name": "Sandbox",
+        "namespace_id": "49559f507fe446ea8f436a0016b86831",
+      },
+    ],
+  },
   // R2 bucket for persistent storage (moltbot data, conversations, etc.)
   "r2_buckets": [
     {
